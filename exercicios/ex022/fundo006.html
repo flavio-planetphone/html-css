@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
+             /*  
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-        }
+            background-attachment: fixed;
 
+           Shorthand - background
+            color > image > position > repeat > [size] > attachment
+        
+        */
+
+       /* (não funcionou com o size) */ 
+
+       background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed; 
+       background-size: cover;
+        
+    }
+          
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +41,14 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quo.</p>
+        <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quo.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quo
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quoLorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quo
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quo.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quo
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quoLorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate deserunt eligendi dicta quia vitae accusantium necessitatibus a illum, repellat atque aliquam deleniti quas quos maiores incidunt unde, quibusdam veritatis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maiores corrupti iusto at consequuntur eum numquam sequi libero nemo nihil, et quasi labore accusantium! Eligendi voluptatem expedita debitis neque quo
+        </p>
     </main>
     
 </body>
