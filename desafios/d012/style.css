@@ -13,6 +13,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -32,7 +33,7 @@ header > h1 {
     /* text-transform: uppercase; //coloca as letras em maiusculas */
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 10%vw;
+    font-size: 10vw;
 }
 
 header > p {
