@@ -12,6 +12,7 @@
         table {
             width: 550px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -29,6 +30,11 @@
         }
         .numero {
             text-align: right;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
         }
         tbody > tr:nth-child(2n-1) { /* odd */
             background-color: yellow ;
