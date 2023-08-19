@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas e Filmes</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        td.nome {
+            text-align: left;
+            padding-left: 4px;
+        }
+        td.flaio {
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="flaio">Grupo</td>
+            <td class="flaio">Nomes</td>
+            <td class="flaio" colspan="3">Filmes</td>
+        </tr>
+        <tr>
+            <td class="flaio" rowspan="3">Mulheres</td>
+            <td class="nome">Ana Maria Santos</td>
+            <td class="nome">Alien</td>
+            <td class="nome">Rambo</td>
+            <td class="nome">Vingadores</td>
+        </tr>
+        <tr>
+            <td class="nome">Beatriz Souza</td>
+            <td class="nome">Hulk</td>
+            <td class="nome">Inception</td>
+            <td class="nome">Batman</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
