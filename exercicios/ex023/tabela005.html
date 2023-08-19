@@ -10,7 +10,7 @@
         }
         table {
             border-collapse: collapse;
-            width: 600px;
+            width: 650px;
         }
         td {
             border: 1px solid black;
@@ -21,31 +21,66 @@
             text-align: left;
             padding-left: 4px;
         }
-        td.flaio {
+        caption, td.flaio {
             font-weight: bolder;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
+    <h1>Exercício de Tabelas</h1>
     <table>
-        <tr>
-            <td class="flaio">Grupo</td>
-            <td class="flaio">Nomes</td>
-            <td class="flaio" colspan="3">Filmes</td>
-        </tr>
-        <tr>
-            <td class="flaio" rowspan="3">Mulheres</td>
-            <td class="nome">Ana Maria Santos</td>
-            <td class="nome">Alien</td>
-            <td class="nome">Rambo</td>
-            <td class="nome">Vingadores</td>
-        </tr>
-        <tr>
-            <td class="nome">Beatriz Souza</td>
-            <td class="nome">Hulk</td>
-            <td class="nome">Inception</td>
-            <td class="nome">Batman</td>
-        </tr>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <td class="flaio">Grupo</td>
+                <td class="flaio">Nomes</td>
+                <td class="flaio" colspan="3">Filmes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="flaio" rowspan="3">Mulheres</td>
+                <td class="nome">Ana Maria Santos</td>
+                <td class="nome">Alien</td>
+                <td class="nome">Rambo</td>
+                <td class="nome">Vingadores</td>
+            </tr>
+            <tr>
+                <td class="nome">Beatriz Souza</td>
+                <td class="nome">Hulk</td>
+                <td class="nome">Inception</td>
+                <td class="nome">Batman</td>
+            </tr>
+            <tr>
+                <td class="nome">Cláudia Melo</td>
+                <td class="nome">Oblivion</td>
+                <td class="nome">Matrix</td>
+                <td class="nome">Big Hero</td>
+            </tr>
+            <tr>
+                <td class="flaio" rowspan="3">Homens</td>
+                <td class="nome">Bruno Mendonça</td>
+                <td class="nome">Intocáveis</td>
+                <td class="nome">Amnésia</td>
+                <td class="nome">Glafiador</td>
+            </tr>
+            <tr>
+                <td class="nome">Daniel Lourenço</td>
+                <td class="nome">Wall-E</td>
+                <td class="nome">Oldboy</td>
+                <td class="nome">Dangal</td>
+            </tr>
+            <tr>
+                <td class="nome">Fabiano Mota</td>
+                <td class="nome">Star Wars 5</td>
+                <td class="nome">Taxi Driver</td>
+                <td class="nome">Toy Story</td>
+            </tr>
+        </tbody>
+
     </table>
     
 </body>
